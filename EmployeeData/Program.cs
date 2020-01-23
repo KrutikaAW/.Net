@@ -7,7 +7,7 @@ namespace EmployeeData
     {
         static void Main(string[] args)
         {
-            string connectionString = "Data Source=U1-4P576Y2-L;Initial Catalog=CApoc;Integrated Security=True";
+            string connectionString = "Data Source = (localdb)\"MSSQLLocalDB; Initial Catalog = master; Integrated Security = True; Connect Timeout = 30;";
             SqlConnection conn = new SqlConnection(connectionString);
             conn.Open();
             string sql;
@@ -40,6 +40,18 @@ namespace EmployeeData
             //Add new record
             sql = "INSERT INTO Employee_data VALUES('3', 'Benette', 'Katherine', '1997-05-01', '2018-06-12', '23', '(212)345-5463','kbenette@gmail.com')";
             SqlCommand command5 = new SqlCommand(sql, conn);
+            command5.ExecuteNonQuery();
+            command5.Dispose();
+
+            //Add new record -- Update
+            sql = "INSERT INTO Employee_data VALUES('4', 'Sebastian', 'Kat', '1997-06-01', '2018-06-12', '25', '(212)345-5463','sebastian@gmail.com')";
+            SqlCommand command8 = new SqlCommand(sql, conn);
+            command5.ExecuteNonQuery();
+            command5.Dispose();
+
+            //Add new record  -- Update
+            sql = "INSERT INTO Employee_data VALUES('5', 'Dakar', 'Mithryll', '1997-05-09', '2018-06-20', '27', '(212)345-5463','dakar@gmail.com')";
+            SqlCommand command9 = new SqlCommand(sql, conn);
             command5.ExecuteNonQuery();
             command5.Dispose();
 

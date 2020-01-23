@@ -1,33 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Krutika\\source\\repos\\EmployeeData\\EmployeeData\\EmployeeData.csproj": {}
+    "C:\\Users\\Sebastian\\Desktop\\kprojects\\.Net\\EmployeeData\\EmployeeData.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Krutika\\source\\repos\\EmployeeData\\EmployeeData\\EmployeeData.csproj": {
+    "C:\\Users\\Sebastian\\Desktop\\kprojects\\.Net\\EmployeeData\\EmployeeData.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Krutika\\source\\repos\\EmployeeData\\EmployeeData\\EmployeeData.csproj",
+        "projectUniqueName": "C:\\Users\\Sebastian\\Desktop\\kprojects\\.Net\\EmployeeData\\EmployeeData.csproj",
         "projectName": "EmployeeData",
-        "projectPath": "C:\\Users\\Krutika\\source\\repos\\EmployeeData\\EmployeeData\\EmployeeData.csproj",
-        "packagesPath": "C:\\Users\\Krutika\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Krutika\\source\\repos\\EmployeeData\\EmployeeData\\obj\\",
+        "projectPath": "C:\\Users\\Sebastian\\Desktop\\kprojects\\.Net\\EmployeeData\\EmployeeData.csproj",
+        "packagesPath": "C:\\Users\\Sebastian\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Sebastian\\Desktop\\kprojects\\.Net\\EmployeeData\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Krutika\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Sebastian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://10.11.198.250:8088/Nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -56,10 +53,16 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

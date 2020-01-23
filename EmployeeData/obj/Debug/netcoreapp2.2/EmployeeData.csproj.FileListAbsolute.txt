@@ -9,3 +9,13 @@ C:\Users\Krutika\source\repos\EmployeeData\EmployeeData\obj\Debug\netcoreapp2.2\
 C:\Users\Krutika\source\repos\EmployeeData\EmployeeData\bin\Debug\netcoreapp2.2\EmployeeData.pdb
 C:\Users\Krutika\source\repos\EmployeeData\EmployeeData\obj\Debug\netcoreapp2.2\EmployeeData.dll
 C:\Users\Krutika\source\repos\EmployeeData\EmployeeData\obj\Debug\netcoreapp2.2\EmployeeData.pdb
+C:\Users\Sebastian\Desktop\kprojects\.Net\EmployeeData\obj\Debug\netcoreapp2.2\EmployeeData.csprojAssemblyReference.cache
+C:\Users\Sebastian\Desktop\kprojects\.Net\EmployeeData\obj\Debug\netcoreapp2.2\EmployeeData.AssemblyInfoInputs.cache
+C:\Users\Sebastian\Desktop\kprojects\.Net\EmployeeData\obj\Debug\netcoreapp2.2\EmployeeData.AssemblyInfo.cs
+C:\Users\Sebastian\Desktop\kprojects\.Net\EmployeeData\obj\Debug\netcoreapp2.2\EmployeeData.dll
+C:\Users\Sebastian\Desktop\kprojects\.Net\EmployeeData\obj\Debug\netcoreapp2.2\EmployeeData.pdb
+C:\Users\Sebastian\Desktop\kprojects\.Net\EmployeeData\bin\Debug\netcoreapp2.2\EmployeeData.deps.json
+C:\Users\Sebastian\Desktop\kprojects\.Net\EmployeeData\bin\Debug\netcoreapp2.2\EmployeeData.runtimeconfig.json
+C:\Users\Sebastian\Desktop\kprojects\.Net\EmployeeData\bin\Debug\netcoreapp2.2\EmployeeData.runtimeconfig.dev.json
+C:\Users\Sebastian\Desktop\kprojects\.Net\EmployeeData\bin\Debug\netcoreapp2.2\EmployeeData.dll
+C:\Users\Sebastian\Desktop\kprojects\.Net\EmployeeData\bin\Debug\netcoreapp2.2\EmployeeData.pdb
