@@ -7,6 +7,7 @@ namespace EmployeeData
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Hello World!");
             string connectionString = "Data Source = (localdb)\"MSSQLLocalDB; Initial Catalog = master; Integrated Security = True; Connect Timeout = 30;";
             SqlConnection conn = new SqlConnection(connectionString);
             conn.Open();
