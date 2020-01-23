@@ -7,17 +7,16 @@ namespace EmployeeData
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            string connectionString = "Data Source = (localdb)\"MSSQLLocalDB; Initial Catalog = master; Integrated Security = True; Connect Timeout = 30;";
+            string connectionString = "Data Source=U1-1PMC7Y2-L;Initial Catalog=Employee_data;Integrated Security=True";
             SqlConnection conn = new SqlConnection(connectionString);
             conn.Open();
             string sql;
 
             //Delete existing table
-            sql = "DROP TABLE Employee_data";
-            SqlCommand command1 = new SqlCommand(sql, conn);
-            command1.ExecuteNonQuery();
-            command1.Dispose();
+            //sql = "DROP TABLE Employee_data";
+            //SqlCommand command1 = new SqlCommand(sql, conn);
+            //command1.ExecuteNonQuery();
+            //command1.Dispose();
 
             //Create new table
             sql = "CREATE TABLE Employee_data ( " +
